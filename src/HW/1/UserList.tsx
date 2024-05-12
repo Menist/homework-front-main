@@ -1,4 +1,4 @@
-export type AddressType = {
+type AddressType = {
     street: string;
     city: string;
 };
@@ -10,7 +10,7 @@ export type UserType = {
     address:AddressType
 };
 
- export type UserListPropsType = {
+ type UserListPropsType = {
     users: UserType[];
 };
 

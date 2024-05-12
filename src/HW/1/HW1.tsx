@@ -1,4 +1,4 @@
-import {UserList, UserListPropsType, UserType} from './UserList';
+import {UserList, UserType} from './UserList';
 
 export const HW1 = () => {
 
